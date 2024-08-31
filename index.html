@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>finalProject</title>
+        <!-- google font -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+            rel="stylesheet">
+        <!-- font awesome -->
+        <link rel="stylesheet" href="css/all.min.css">
+        <!-- css -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <span class="up"> <button id="btnScroll"><i class="fa-solid fa-up-long"></i></button> </span>
+     
+        <section>
+            <div class="loading">
+                <span class="loader"></span>
+            </div>
+
+       </section>
+         
+        <!--  -->
+        <!-- Start Header -->
+        <header>
+            <section class="main-header">
+                <div class="container">
+                    <div class="main-header-data">
+                        <div class="logo">
+                            <h2><a href="index.html">OneTech</a></h2>
+                        </div>
+                        <div class="main-head-search">
+                            <form class="main-head-form">
+                                <input type="search"
+                                    placeholder="Search For Products...">
+                                <div id="mainHeadList" class="main-head-list">
+                                    <span>All Categories</span>
+                                    <i class="fa-solid fa-caret-down"></i>
+                                    <ul id="listHead">
+                                        <li>All categories</li>
+                                        <li>Computers</li>
+                                        <li>laptops</li>
+                                        <li>Cameras</li>
+                                        <li>Hardware</li>
+                                        <li
+                                            class="head-list-smartphone">Smartphones</li>
+
+                                    </ul>
+                                </div>
+                                <button><i class="fas fa-search"></i></button>
+                            </form>
+                        </div>
+
+                        <div class="header-data-icon">
+                            <div class="header-data-icon-left">
+                                <img src="images/asset 0.webp" alt>
+                                <div class="header-data-icon-left-txt">
+                                    <h5>wishlist</h5>
+                                    <span>115</span>
+                                </div>
+
+                            </div>
+                            <div class="header-data-icon-right">
+                                <img src="images/asset 1.webp" alt>
+                                <span id="disCart">0</span>
+                                <div class="header-data-icon-left-txt">
+                                    <h5>Cart</h5>
+                                    <span>$85</span>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+                    <section class="navbar" id="main_nav" >
+                        <div class="container">
+                            <div class="navbar-data " >
+                                <div class="logo-navbar">
+                                    <i class="fa-solid fa-bars"></i>
+                                    <ul id="listNavbar">
+                                        <li>Computers & Laptops</li>
+                                        <li>Cameras & Photos</li>
+                                        <li>Hardware</li>
+                                        <li>SmartPhones & Tablets</li>
+                                        <li>Tv & Audio</li>
+                                        <li>Gadget</li>
+                                        <li>Car Electronic</li>
+                                        <li class="head-list-smartphone">Video
+                                            Games & consoles</li>
+
+                                    </ul>
+                                    <h2>Categories</h2>
+                                </div>
+                                <nav>
+                                    <ul id="main-nav">
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a
+                                                href="#super-deal">SuperDeal</a></li>
+                                        <li><a href="#new-arrival">New
+                                                Arrival</a></li>
+                                        <div class="pages" >
+                                            <li><a href="#" onclick="showPages()" >Pages</a>
+                                            <i
+                                            class="fa-solid fa-caret-down">
+                                            </i></li>
+                                            <ul class="main-nav-downn" >
+                                                <li><a href="shop.html">Shop</a></li>
+                                                <li><a href="product.html">product</a></li>
+                                                <li><a href="blog.html">Blog</a></li>
+                                                <li><a href="cart.html">Cart</a></li>
+                                                <li><a href="contact.html">Contact</a></li>
+                                                </ul>
+                                        
+                                        
+                                        </div>       
+                                        
+
+                                        <li><a href="blog.html">Blog</a></li>
+                                        <li><a
+                                                href="contact.html">contact</a></li>
+                                    </ul>
+                                </nav>
+                              
+                                <div class="nav-bar">
+                                    <i class="fa-solid fa-bars"></i>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                    </section>
+
+                </header>
+                <!-- End Header -->
+
+                <main>
+                    <section class="main-data">
+                        <div class="container">
+                            <div class="main-data-info">
+
+                                <div class="main-data-txt">
+                                    <h1>NEW ERA OF <br> SMARTPHONES</h1>
+                                    <div class="main-data-txt-info">
+                                        <span><del>$530</del></span>
+                                        <span> $460</span>
+                                        <p>Apple Iphone 6s</p>
+                                        <button>Shop Now</button>
+                                    </div>
+
+                                </div>
+                                <div class="main-data-img"> <img
+                                        src="images/asset 2.webp" alt>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="icon-main">
+                        <div class="container">
+                            <div class="icon-main-data">
+                                <div class="data-icon">
+                                    <div class="data-icon-img"><img
+                                            src="images/asset 3.webp" alt>
+                                    </div>
+                                    <div class="data-icon-txt">
+                                        <h4>Free Delivery</h4>
+                                        <span>from $50</span>
+                                    </div>
+                                </div>
+                                <div class="data-icon">
+                                    <div class="data-icon-img"><img
+                                            src="images/asset 4.webp" alt>
+                                    </div>
+                                    <div class="data-icon-txt">
+                                        <h4>Free Delivery</h4>
+                                        <span>from $50</span>
+                                    </div>
+                                </div>
+                                <div class="data-icon">
+                                    <div class="data-icon-img"><img
+                                            src="images/asset 5.webp" alt>
+                                    </div>
+                                    <div class="data-icon-txt">
+                                        <h4>Free Delivery</h4>
+                                        <span>from $50</span>
+                                    </div>
+                                </div>
+                                <div class="data-icon">
+                                    <div class="data-icon-img"><img
+                                            src="images/asset 6.webp" alt>
+                                    </div>
+                                    <div class="data-icon-txt">
+                                        <h4>Free Delivery</h4>
+                                        <span>from $50</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
+                    <section class="super-deal" id="super-deal">
+                        <div class="container">
+                            <div class="super-deal-data">
+                                <div class="super-deal-left">
+                                    <div class="txt-super">
+                                        <h3>Deals of the Week</h3>
+                                        <span>&lt; &nbsp; &nbsp;&gt;</span>
+                                    </div>
+                                    <div class="img-super">
+                                        <img
+                                            src="images/xdeals.png.pagespeed.ic.nmhfwwkKMA.webp"
+                                            alt>
+                                    </div>
+                                    <div class="super-det">
+                                        <div class="super-detailes">
+                                            <h5>Headphone</h5>
+                                            <h4>Beoplay H7</h4>
+                                        </div>
+                                        <div class="super-sal">
+                                            <h5>$300</h5>
+                                            <h4>$225</h4>
+
+                                        </div>
+                                    </div>
+                                    <div class="super-range">
+                                        <span>Available: 6</span>
+                                        <div class="progress">
+                                            <div></div>
+                                        </div>
+                                    </div>
+                                    <div class="super-infoend">
+                                        <div class="super-end">
+                                            <h4>Hurry Up</h4>
+                                            <h5>Offer ends in:</h5>
+                                        </div>
+                                        <div class="super-endone">
+                                            <h5>This Product Not Available
+                                                Now.</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="super-deal-right">
+                                    <div class="nav-super">
+                                        <ul>
+                                            <li><a href
+                                                    class="nav-superchild">Featured</a></li>
+                                            <li><a href>On Sale</a></li>
+                                            <li><a href>Best rated</a></li>
+                                        </ul>
+                                        <div class="bar"></div>
+                                        <hr>
+                                    </div>
+                                    <div class="right-product">
+                                        <div class="item right-product-child">
+                                            <img src="images/asset 37.webp" alt>
+                                            <p>$357</p>
+                                            <h5>Head Phone</h5>
+                                            <h3>Huawei MediaPad</h3>
+                                            <button class="btnAdd">Add Cart</button>
+                                        </div>
+                                        <div class="item right-product-childone">
+                                            <img src="images/asset 9.webp" alt>
+                                            <p>$357</p>
+                                            <h5>Smart Watch</h5>
+                                            <h3>Sony MDRZX310W</h3>
+                                            <button class="btnAdd">Add Cart</button>
+                                        </div>
+                                        <div class="item right-product-childone">
+                                            <img src="images/asset 30.webp" alt>
+                                            <p>$357</p>
+                                            <h5>Smart Phone</h5>
+                                            <h3>Samsung J330F</h3>
+                                            <button class="btnAdd">Add Cart</button>
+                                        </div>
+                                        <div class="item right-product-childT">
+                                            <img src="images/asset 15.webp" alt>
+                                            <p>$357</p>
+                                            <h5>Head Phone</h5>
+                                            <h3>BeoPlay</h3>
+                                            <button class="btnAdd">Add Cart</button>
+                                        </div>
+
+                                    </div>
+                                    <div class="right-product">
+                                        <div class="item right-product-childT">
+                                            <img src="images/asset 11.webp" alt>
+                                            <p>$357</p>
+                                            <h5>Ipod</h5>
+                                            <h3>Transcend T.Sonic</h3>
+                                            <button class="btnAdd">Add Cart</button>
+                                        </div>
+                                        <div class="item right-product-childT">
+                                            <img src="images/asset 11.webp" alt>
+                                            <p>$357</p>
+                                            <h5>Ipod</h5>
+                                            <h3>Transcend T.Sonic</h3>
+                                            <button class="btnAdd">Add Cart</button>
+                                        </div>
+                                        
+                                        
+                                        <div class="item right-product-childone">
+                                            <img src="images/asset 13.webp" alt>
+                                            <p>$357</p>
+                                            <h5>Camera</h5>
+                                            <h3>Canon EF</h3>
+                                            <button class="btnAdd">Add Cart</button>
+                                        </div>
+                                        <div class="item right-product-childT">
+                                            <img src="images/asset 14.webp" alt>
+                                            <p>$357</p>
+                                            <h5>Smartphone</h5>
+                                            <h3>LUNA</h3>
+                                            <button class="btnAdd">Add Cart</button>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </section>
+                        <section class="popular">
+                            <div class="container">
+                                <div class="popular-data">
+                                    <div class="popular-data-left">
+                                        <h2>Popular Categories</h2>
+                                        <button>Full Categories</button>
+                                    </div>
+                                    <div class="popular-data-right">
+                                        <div class="popluar-right-icon">
+                                            <img src="images/asset 19.webp" alt>
+                                            <p>SmartPhone & <br> laptops</p>
+                                        </div>
+                                        <div class="popluar-right-icon">
+                                            <img src="images/asset 20.webp" alt>
+                                            <p>Computers & <br> laptops</p>
+                                        </div>
+                                        <div class="popluar-right-icon">
+                                            <img src="images/asset 21.webp" alt>
+                                            <p>Gadgets</p>
+                                        </div>
+                                        <div class="popluar-right-icon">
+                                            <img src="images/asset 22.webp" alt>
+                                            <p>Video Games & <br> Consoles</p>
+                                        </div>
+                                        <div class="popluar-right-icon">
+                                            <img src="images/asset 23.webp" alt>
+                                            <p>Accessories</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </section>
+                        <section class="show">
+                            <div class="container">
+                                <div class="show-data">
+                                    <div class="show-data-left">
+                                        <h5>Laptops</h5>
+                                        <h3>MacBook Air 13</h3>
+                                        <p>Lorem, ipsum dolor sit amet
+                                            consectetur adipisicing elit.
+                                            Incidunt, laboriosam!</p>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <button>Explore</button>
+                                    </div>
+                                    <div class="show-data-right">
+                                        <img src="images/asset 24.webp" alt>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="new-arrival" id="new-arrival">
+                            <div class="container">
+                                <div class="arrival-nav">
+                                    <div class="arrival-logo">
+                                        <h1>Hot New Arrival</h1>
+                                    </div>
+
+                                    <ul class="arrival-list">
+                                        <li><a href
+                                                class="featured">Featured</a></li>
+                                        <li><a href>Audio & video</a></li>
+                                        <li><a href>Laptops &
+                                                Computers</a></li>
+                                    </ul>
+                                </div>
+                                <hr>
+                                <div class="new-arrival-data">
+                                    
+                                    <div class="arrival-left">
+                                        <div class="arrival-product-top">
+                                            <div class="item right-product-child">
+                                                <img src="images/asset 39.webp"
+                                                    alt>
+                                                <p>357</p>
+                                                <h5>Head Phone</h5>
+                                                <h3>Nomi Black White</h3>
+                                                <button class="btnAdd">Add Cart</button>
+                                            </div>
+                                            <div class="item right-product-child">
+                                                <img src="images/asset 16.webp"
+                                                    alt>
+                                                <p>357</p>
+                                                <h5>Smart Watch</h5>
+                                                <h3>Xiaomi Band 2</h3>
+                                                <button class="btnAdd">Add Cart</button>
+                                            </div>
+                                            <div class="item right-product-child">
+                                                <img src="images/asset 17.webp"
+                                                    alt>
+                                                <p>357</p>
+                                                <h5>SmartPhone</h5>
+                                                <h3>Philipe BT6900A</h3>
+                                                <button class="btnAdd">Add Cart</button>
+                                            </div>
+                                            <div class="item right-product-child">
+                                                <img src="images/asset 18.webp"
+                                                    alt>
+                                                <p>357</p>
+                                                <h5>Mouse</h5>
+                                                <h3>Rapoo 7100p Gray</h3>
+                                                <button class="btnAdd">Add Cart</button>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="arrival-product-bottom">
+                                            <div class="item right-product-childT">
+                                                <img src="images/asset 11.webp"
+                                                    alt>
+                                                <p>357</p>
+                                                <h5>Ipod</h5>
+                                                <h3>Transcend T.Sonic</h3>
+                                                <button class="btnAdd">Add Cart</button>
+                                            </div>
+                                            <div class="item right-product-childT">
+                                                <img src="images/asset 12.webp"
+                                                    alt>
+                                                <p>357</p>
+                                                <h5>Mouse</h5>
+                                                <h3>Rapoo T8 White</h3>
+                                                <button class="btnAdd">Add Cart</button>
+                                            </div>
+                                            <div class="item right-product-childT">
+                                                <img src="images/asset 13.webp"
+                                                    alt>
+                                                <p>357</p>
+                                                <h5>Camera</h5>
+                                                <h3>Canon EF</h3>
+                                                <button class="btnAdd">Add Cart</button>
+                                            </div>
+                                            <div class="item right-product-childT">
+                                                <img src="images/asset 14.webp"
+                                                    alt>
+                                                <p>357</p>
+                                                <h5>Smartphone</h5>
+                                                <h3>LUNA</h3>
+                                                <button class="btnAdd">Add Cart</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="arrival-right">
+                                        <img src="images/xnew_single.png.pagespeed.ic.VpcKBxUE65.webp" alt>
+                                        <h5>SmartPhone</h5>
+                                        <span class="luna">LUNA Smartphone</span>
+                                        <span class="salary">357</span>
+                                        <div class="clear"></div>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <button class="btnAdd">Add Cart</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </section>
+                        <section class="best">
+                            <div class="container">
+                                
+                                    <div class="arrival-nav">
+                                        <div class="arrival-logo">
+                                            <h1>Hot Best Seller</h1>
+                                        </div>
+    
+                                        <ul class="arrival-list">
+                                            <li><a href
+                                                    class="featured">Featured</a></li>
+                                            <li><a href>On </a></li>
+                                            <li><a href>Best Rated</a></li>
+                                        </ul>
+                                    </div>
+                                    <hr>
+                                <div class="best-data">
+                                    <div class="best-top">
+                                        <div class="best-product">
+                                            <div class="best-img">
+                                                <img src="images/asset 26.webp" alt="">
+                                            </div>
+                                            <div class="best-txt">
+                                                <h5>Phone</h5>
+                                                <h3>Xiaomi Redmi Note 4</h3>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <p>$355 <span><del>$450</del></span></p>
+                                            </div>
+                                        </div>
+                                        <div class="best-product">
+                                            <div class="best-img">
+                                                <img src="images/asset 27.webp" alt="">
+                                            </div>
+                                            <div class="best-txt">
+                                                <h5>HeadPhone</h5>
+                                                <h3>Beoplay H7</h3>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <p>$355 <span><del>$450</del></span></p>
+                                            </div>
+                                        </div>
+                                        <div class="best-product">
+                                            <div class="best-img">
+                                                <img src="images/asset 28.webp" alt="">
+                                            </div>
+                                            <div class="best-txt">
+                                                <h5>HeadPhone</h5>
+                                                <h3>Nomi Black White</h3>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <p>$355 <span><del>$450</del></span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="best-bottom">
+                                        <div class="best-productt">
+                                            <div class="best-img">
+                                                <img src="images/asset 29.webp" alt="">
+                                            </div>
+                                            <div class="best-txt">
+                                                <h5>HeadPhone</h5>
+                                                <h3>Samsung J730F</h3>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <p>$355 <span><del>$450</del></span></p>
+                                            </div>
+                                        </div>
+                                        <div class="best-productt">
+                                            <div class="best-img">
+                                                <img src="images/asset 30.webp" alt="">
+                                            </div>
+                                            <div class="best-txt">
+                                                <h5>Phone</h5>
+                                                <h3>Samsung Charm Gold</h3>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <p>$355 <span><del>$450</del></span></p>
+                                            </div>
+                                        </div>
+                                        <div class="best-productt">
+                                            <div class="best-img">
+                                                <img src="images/asset 31.webp" alt="">
+                                            </div>
+                                            <div class="best-txt">
+                                                <h5>Phone</h5>
+                                                <h3>Huawei MediaPad T3</h3>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <p>$355 <span><del>$450</del></span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                    
+                                
+                            </div>
+                        </section>
+                        <section class="pro-trend">
+                            <div class="container">
+                                <div class="pro-trend-data">
+                                    <div class="trend-info">
+                                        <div class="trend-info-txt">
+                                            <h3>Trends 2018</h3>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed.</p>
+                                        </div>
+                                        <div class="trend-info-img">
+                                            <img src="images/asset 32.webp" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="trend-info">
+                                        <div class="trend-info-txt">
+                                            <h3>Trends 2018</h3>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed.</p>
+                                        </div>
+                                        <div class="trend-info-img">
+                                            <img src="images/asset 33.webp" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="trend-info">
+                                        <div class="trend-info-txt">
+                                            <h3>Trends 2018</h3>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed.</p>
+                                        </div>
+                                        <div class="trend-info-img">
+                                            <img src="images/asset 34.webp" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </section>
+                        <section class="trends">
+                            <div class="container">
+                                <div class="trends-nav">
+                                    <h1>Trends in 2021</h1>
+                                    <hr>
+                                </div>
+                                <div class="trends-data">
+                                    <div class="trends-child">
+                                        <img src="images/xnew_single.png.pagespeed.ic.VpcKBxUE65.webp" alt="">
+                                        <p>Smartphone</p>
+                                        <div class="trends-child-txt">
+                                            <h4>Jump White</h4>
+                                            <h5>$379</h5>
+                                            <div class="clear"></div>
+                                        </div>
+                                    </div>
+                                    <div class="trends-child">
+                                        <img src="images/xnew_single.png.pagespeed.ic.VpcKBxUE65.webp" alt="">
+                                        <p>Smartphone</p>
+                                        <div class="trends-child-txt">
+                                            <h4>Jump White</h4>
+                                            <h5>$379</h5>
+                                            <div class="clear"></div>
+                                        </div>
+                                    </div>
+                                    <div class="trends-child">
+                                        <img src="images/xnew_single.png.pagespeed.ic.VpcKBxUE65.webp" alt="">
+                                        <p>Smartphone</p>
+                                        <div class="trends-child-txt">
+                                            <h4>Jump White</h4>
+                                            <h5>$379</h5>
+                                            <div class="clear"></div>
+                                        </div>
+                                    </div>
+                                    <div class="trends-child">
+                                        <img src="images/xnew_single.png.pagespeed.ic.VpcKBxUE65.webp" alt="">
+                                        <p>Smartphone</p>
+                                        <div class="trends-child-txt">
+                                            <h4>Jump White</h4>
+                                            <h5>$379</h5>
+                                            <div class="clear"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="blog-pro">
+                            <div class="container">
+                                <div class="blog-pro-info">
+                                    <div class="blog-nav">
+                                        <div class="blog-nav-left">
+                                            <h1>Recently Viewed</h1>
+                                        </div>
+                                        <div class="blog-nav-right">
+                                            <span>&lt; &nbsp; &nbsp;&gt;</span>
+                                        </div>
+                                        
+                                    </div>
+                                    <hr>
+                                    <div class="info-data">
+                                        <div class="pro-data">
+                                            <img src="images/xview_4.jpg.pagespeed.ic.gcfPB3V9Wh.webp" alt="">
+                                            <h4>$379</h4>
+                                            <p>Huawei MediaPad</p>
+                                        </div>
+                                        <div class="pro-datat">
+                                            <img src="images/asset 38.webp" alt="">
+                                            <div class="blog-del">
+                                                <h5>$250</h5>
+                                                <p>$300</p>
+                                            </div>
+                                            <p>Samsung J730F</p>
+                                        </div>
+                                        <div class="pro-data">
+                                            <img src="images/asset 45.webp" alt="">
+                                            <h4>$379</h4>
+                                            <p>LUNA Smartphone</p>
+                                        </div>
+                                        <div class="pro-datat">
+                                            <img src="images/asset 15.webp" alt="">
+                                            <div class="blog-del">
+                                                <h5>$250</h5>
+                                                <p>$300</p>
+                                            </div>
+                                            <p>Beoplay H4</p>
+                                        </div>
+                                        <div class="pro-data">
+                                            <img src="images/asset 41.webp" alt="">
+                                            <h4>$379</h4>
+                                            <p>Speedlink</p>
+                                        </div>
+                                        <div class="pro-datat">
+                                            <img src="images/asset 40.webp" alt="">
+                                            <div class="blog-del">
+                                                <h5>$250</h5>
+                                                <p>$300</p>
+                                            </div>
+                                            <p>Sony PS4 Silm</p>
+                                        </div>
+                                        
+                                    </div>
+                
+                                </div>
+                            </div>
+                        </section>
+                        <section class="blog-search">
+                            <div class="container">
+                                <div class="map-search">
+                                    <div class="map-search-txt">
+                                        <div class="searchimg">
+                                            <img src="images/asset 54.webp" alt>
+                                        </div>
+                                        <div class="search-txt">
+                                            <h4>Sign up for Newsletter</h4>
+                                            <p>...and receive %20 coupon for first shopping.</p>
+                                        </div>
+                                    </div>
+                                    <div class="map-input">
+                                        <input type="text" placeholder="Enter Your Email Address">
+                                        <button>Subscribe</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </main>
+                    <footer>
+                        <section class="onetech">
+                            <div class="container">
+                                <div class="onetech-data">
+                                    <div class="onetech-left">
+                                        <h1>OneTech</h1>
+                                        <h4>Got Question? Call Us 24/7</h4>
+                                        <h3>+38 068 005 3570</h3>
+                                        <h3>omarmokhtar363@gmail.com</h3>
+                                        <p>17 Princess Road, London Grester London NW18JR, UK</p>
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                        <i class="fa-brands fa-twitter"></i>
+                                        <i class="fa-brands fa-youtube"></i>
+                                        <i class="fa-brands fa-google"></i>
+                                    </div>
+                                    <div class="onetech-center">
+                                        <h3>Find it Fast</h3>
+                                        <ul>
+                                            <li><a href="">Computers & Laptops</a></li>
+                                                    <li><a href="">Cameras & Photos</a></li>
+                                                    <li><a href="">Hardware</a></li>
+                                                    <li><a href="">SmartPhones & Tablets </a>
+                                                    </li>
+                                                    <li><a href="">Tv & Audio</a> </li>
+                                                    <li> <a href="">Gadget</a></li>
+                                                    <li><a href="">Car Electronic</a></li>
+                                                    <li ><a href="">VideoGames & consoles</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="onetech-center">
+                                        <h3>Find it Fast</h3>
+                                        <ul>
+                                            <li><a href="">Computers & Laptops</a></li>
+                                                    <li><a href="">Cameras & Photos</a></li>
+                                                    <li><a href="">Hardware</a></li>
+                                                    <li><a href="">SmartPhones & Tablets </a>
+                                                    </li>
+                                                    <li><a href="">Tv & Audio</a> </li>
+                                                    <li> <a href="">Gadget</a></li>
+                                                    <li><a href="">Car Electronic</a></li>
+                                                    <li ><a href="">VideoGames & consoles</a></li>
+                                        </ul>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </section>
+                        <section class="footer-mon">
+                            <div class="container">
+                                <div class="mon-info">
+                                    <div class="mon-left">
+                                        <p>Copyright ©2021 All rights reserved | This template is made by <span>Triple-O</span> </p>
+                                    </div>
+                                    <div class="mon-right">
+                                        <img src="images/asset 55.webp" alt="">
+                                        <img src="images/asset 56.webp" alt="">
+                                        <img src="images/asset 57.webp" alt="">
+                                        <img src="images/asset 58.webp" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </footer>
+                    
+     
+
+                    <!-- js -->
+                    <script src="js/main.js"></script>
+                    <script src="js/cart.js"></script>
+                </body>
+            </html>

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    
+    <!-- google font -->
+    <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+<!-- font awesome -->
+<link rel="stylesheet" href="css/all.min.css">
+<!-- css -->
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <span class="up"> <button id="btnScroll"><i class="fa-solid fa-up-long"></i></button> </span>
+    <section>
+        <div class="loading">
+            <span class="loader"></span>
+        </div>
+
+   </section>
+     
+    <!--  -->
+    <!-- Start Header -->
+    <header>
+        <section class="main-header">
+            <div class="container">
+                <div class="main-header-data">
+                    <div class="logo">
+                        <h2><a href="index.html">OneTech</a></h2>
+                    </div>
+                    <div class="main-head-search">
+                        <form class="main-head-form">
+                            <input type="search"
+                                placeholder="Search For Products...">
+                            <div id="mainHeadList" class="main-head-list">
+                                <span>All Categories</span>
+                                <i class="fa-solid fa-caret-down"></i>
+                                <ul id="listHead">
+                                    <li>All categories</li>
+                                    <li>Computers</li>
+                                    <li>laptops</li>
+                                    <li>Cameras</li>
+                                    <li>Hardware</li>
+                                    <li
+                                        class="head-list-smartphone">Smartphones</li>
+
+                                </ul>
+                            </div>
+                            <button><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+
+                    <div class="header-data-icon">
+                        <div class="header-data-icon-left">
+                            <img src="images/asset 0.webp" alt>
+                            <div class="header-data-icon-left-txt">
+                                <h5>wishlist</h5>
+                                <span>115</span>
+                            </div>
+
+                        </div>
+                        <div class="header-data-icon-right">
+                            <img src="images/asset 1.webp" alt>
+                            <div class="header-data-icon-left-txt">
+                                <h5>Cart</h5>
+                                <span>$85</span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+                <section class="navbar" id="main_nav" >
+                    <div class="container">
+                        <div class="navbar-data " >
+                            <div class="logo-navbar">
+                                <i class="fa-solid fa-bars"></i>
+                                <ul id="listNavbar">
+                                    <li>Computers & Laptops</li>
+                                    <li>Cameras & Photos</li>
+                                    <li>Hardware</li>
+                                    <li>SmartPhones & Tablets</li>
+                                    <li>Tv & Audio</li>
+                                    <li>Gadget</li>
+                                    <li>Car Electronic</li>
+                                    <li class="head-list-smartphone">Video
+                                        Games & consoles</li>
+
+                                </ul>
+                                <h2>Categories</h2>
+                            </div>
+                            <nav>
+                                <ul id="main-nav">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a
+                                            href="#super-deal">SuperDeal</a></li>
+                                    <li><a href="#new-arrival">New
+                                            Arrival</a></li>
+                                    <div class="pages" >
+                                        <li><a href="#" onclick="showPages()" >Pages</a>
+                                        <i
+                                        class="fa-solid fa-caret-down">
+                                        </i></li>
+                                        <ul class="main-nav-downn" >
+                                            <li><a href="shop.html">Shop</a></li>
+                                            <li><a href="product.html">product</a></li>
+                                            <li><a href="blog.html">Blog</a></li>
+                                            <li><a href="cart.html">Cart</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                            </ul>
+                                    
+                                    
+                                    </div>       
+                                    
+
+                                    <li><a href="blog.html">Blog</a></li>
+                                    <li><a
+                                            href="contact.html">contact</a></li>
+                                </ul>
+                            </nav>
+                          
+                            <div class="nav-bar">
+                                <i class="fa-solid fa-bars"></i>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                </section>
+
+            </header>
+            <!-- End Header -->
+    <section class="cart">
+        <div class="container">
+            <div class="cart-info">
+                <h1>Shopping Cart</h1>
+            </div>
+        </div>
+    </section>
+    <section class="cart-pro">
+        <div class="container">
+            <div class="cart-pro-data">
+                <div id="cart-pro-info" class="cart-pro-info">
+                    <!-- <div class="cart-img">
+                        <img src="images/xfeatured_7.png.pagespeed.ic.TSCkRrtjRn.webp" alt="">
+                    </div>
+                    <div class="cart-name">
+                        <h2>Name</h2>
+                        <p >MacBook Air 13</p>
+                    </div>
+                    <div class="cart-color">
+                        <h2>color</h2>
+                        <p><input type="color" value="#0099cc"></p>
+                    </div>
+                    <div class="cart-qua">
+                        <h2>Quantity</h2>
+                        <p>1</p>
+                    </div>
+                    <div class="cart-price">
+                        <h2>Price</h2>
+                        <p>$2000</p>
+                    </div>
+                    <div class="cart-total">
+                        <h2>Total</h2>
+                        <p>$2000</p>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="total">
+        <div class="container">
+            <div class="total-info">
+                <div class="total-info-data">
+                    <p><span>Order Total: </span>$2000</p>
+                </div>
+                <div class="total-btn">
+                    <button>Add to Cart</button>
+                </div>
+                
+            </div>
+        </div>
+
+    </section>
+    <section class="blog-search">
+        <div class="container">
+            <div class="map-search">
+                <div class="map-search-txt">
+                    <div class="searchimg">
+                        <img src="images/asset 54.webp" alt>
+                    </div>
+                    <div class="search-txt">
+                        <h4>Sign up for Newsletter</h4>
+                        <p>...and receive %20 coupon for first shopping.</p>
+                    </div>
+                </div>
+                <div class="map-input">
+                    <input type="text" placeholder="Enter Your Email Address">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <section class="onetech">
+        <div class="container">
+            <div class="onetech-data">
+                <div class="onetech-left">
+                    <h1>OneTech</h1>
+                    <h4>Got Question? Call Us 24/7</h4>
+                    <h3>+38 068 005 3570</h3>
+                    <h3>omarmokhtar363@gmail.com</h3>
+                    <p>17 Princess Road, London Grester London NW18JR, UK</p>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-google"></i>
+                </div>
+                <div class="onetech-center">
+                    <h3>Find it Fast</h3>
+                    <ul>
+                        <li><a href="">Computers & Laptops</a></li>
+                                <li><a href="">Cameras & Photos</a></li>
+                                <li><a href="">Hardware</a></li>
+                                <li><a href="">SmartPhones & Tablets </a>
+                                </li>
+                                <li><a href="">Tv & Audio</a> </li>
+                                <li> <a href="">Gadget</a></li>
+                                <li><a href="">Car Electronic</a></li>
+                                <li ><a href="">VideoGames & consoles</a></li>
+                    </ul>
+                </div>
+                <div class="onetech-center">
+                    <h3>Find it Fast</h3>
+                    <ul>
+                        <li><a href="">Computers & Laptops</a></li>
+                                <li><a href="">Cameras & Photos</a></li>
+                                <li><a href="">Hardware</a></li>
+                                <li><a href="">SmartPhones & Tablets </a>
+                                </li>
+                                <li><a href="">Tv & Audio</a> </li>
+                                <li> <a href="">Gadget</a></li>
+                                <li><a href="">Car Electronic</a></li>
+                                <li ><a href="">VideoGames & consoles</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section class="footer-mon">
+        <div class="container">
+            <div class="mon-info">
+                <div class="mon-left">
+                    <p>Copyright ©2021 All rights reserved | This template is made by <span>Triple-O</span> </p>
+                </div>
+                <div class="mon-right">
+                    <img src="images/asset 55.webp" alt="">
+                    <img src="images/asset 56.webp" alt="">
+                    <img src="images/asset 57.webp" alt="">
+                    <img src="images/asset 58.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <script src="js/main.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>
